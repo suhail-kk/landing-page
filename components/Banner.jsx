@@ -13,7 +13,7 @@ export default function Banner() {
                             width={55}
                             height={55}
                             className='object-contain w-[25px] h-[25px] md:w-[55px] md:h-[55px] max-w-fit'
-                            src="./assets/images/landing-page/banner/star.svg"
+                            src="/assets/images/landing-page/banner/star.svg"
                         />
                     </span>
                 </p>
@@ -28,9 +28,9 @@ export default function Banner() {
                     </p>
                 </div>
                 <div className='flex'>
-                    <Image alt='student-image-1' width={94} height={94} className='object-cover w-[53px] h-[53px] md:w-[94px] md:h-[94px] border-white border-[5px] z-0 rounded-full' src="./assets/images/landing-page/banner/students/3.png" />
-                    <Image alt='student-image-2' width={94} height={94} className='object-cover w-[53px] h-[53px] md:w-[94px] md:h-[94px] border-white border-[5px] z-10 -ml-[25px] md:-ml-[45px] rounded-full' src="./assets/images/landing-page/banner/students/2.png" />
-                    <Image alt='student-image-3' width={94} height={94} className='object-cover w-[53px] h-[53px] md:w-[94px] md:h-[94px] border-white border-[5px] z-20 -ml-[25px] md:-ml-[45px] rounded-full' src="./assets/images/landing-page/banner/students/1.png" />
+                    <Image alt='student-image-1' width={94} height={94} className='object-cover w-[53px] h-[53px] md:w-[94px] md:h-[94px] border-white border-[5px] z-0 rounded-full' src="/assets/images/landing-page/banner/students/3.png" />
+                    <Image alt='student-image-2' width={94} height={94} className='object-cover w-[53px] h-[53px] md:w-[94px] md:h-[94px] border-white border-[5px] z-10 -ml-[25px] md:-ml-[45px] rounded-full' src="/assets/images/landing-page/banner/students/2.png" />
+                    <Image alt='student-image-3' width={94} height={94} className='object-cover w-[53px] h-[53px] md:w-[94px] md:h-[94px] border-white border-[5px] z-20 -ml-[25px] md:-ml-[45px] rounded-full' src="/assets/images/landing-page/banner/students/1.png" />
                 </div>
             </div>
             <div className='flex gap-6 items-center'>
@@ -40,7 +40,7 @@ export default function Banner() {
 
                 <div className='flex items-center gap-4'>
                     <button>
-                        <Image alt='play-button' width={68} height={68} className='w-[41px] h-[41px] md:w-[68px] md:h-[68px] object-contain rounded-full hover:opacity-70 transition-all duration-300 ease-in-out' src="./assets/images/landing-page/banner/play.svg" />
+                        <Image alt='play-button' width={68} height={68} className='w-[41px] h-[41px] md:w-[68px] md:h-[68px] object-contain rounded-full hover:opacity-70 transition-all duration-300 ease-in-out' src="/assets/images/landing-page/banner/play.svg" />
                     </button>
                     <p className='animate-fadeIn font-semibold text-base md:text-[25px]'>See Journey</p>
                 </div>
