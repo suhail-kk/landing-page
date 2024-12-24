@@ -5,7 +5,7 @@ import Milestones from "@/components/Milestones";
 
 export default function Home() {
   return (
-    <main className="relative w-screen h-fit min-h-screen md:h-screen bg-[url('/assets/images/landing-page/banner/lines.png')]">
+    <main className="relative w-screen h-fit min-h-screen md:h-screen bg-[url('./assets/images/landing-page/banner/lines.png')]">
       <div className="h-full w-full flex">
         <div className="absolute lg:hidden top-0 mx-auto opacity-10 inset-0">
           <Gallery />
